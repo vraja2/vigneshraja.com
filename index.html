@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+<title>Vignesh Raja</title>
+<meta name="author" content="Vignesh Raja">
+<meta name="description" content="I am a recent Bachelor's/Master's graduate in Computer Science from the University of Illinois at Urbana Champaign (UIUC). I will be a Software Engineer at Optimizely starting end of February 2016." />
+<title>Vignesh Raja</title>
+<script src = "mootools.js" type = "text/javascript"></script>
+<script type="text/javascript">
+var accordion;
+var accordionTogglers;
+var accordionContents;
+
+window.onload = function() {
+
+	accordionTogglers = document.getElementsByClassName('accToggler');
+
+	accordionTogglers.each(function(toggler){
+		//remember the original color
+		toggler.origColor = toggler.getStyle('background-color');
+		//set the effect
+		toggler.fx = new Fx.Color(toggler, 'background-color');
+	});
+
+	accordionContents = document.getElementsByClassName('accContent');
+
+	accordion = new Fx.Accordion(accordionTogglers, accordionContents,{
+		//when an element is opened change the background color to blue
+		onActive: function(toggler){
+			toggler.fx.toColor('#6899CE');
+		},
+		onBackground: function(toggler){
+			//change the background color to the original (green)
+			//color when another toggler is pressed
+			toggler.setStyle('background-color', toggler.origColor);
+		}
+	});
+
+}
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28016835-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<link rel = "stylesheet" type = "text/css" href = "defcss.css"/>
+</head>
+</style>
+<title>Vignesh Raja</title>
+</head>
+<body>
+<h1 style="text-align:center" >Vignesh Raja</h1>
+<p  style="width: 400px; margin:10px auto" class="oneline"  >
+Student and Computer Scientist
+</p>
+<p class="accToggler">Education</p>
+	<p class="accContent">
+		I am a recent Bachelor's/Master's graduate in Computer Science from the University of Illinois at Urbana Champaign (UIUC). I will be a Software Engineer at Optimizely starting end of February 2016.</p>
+	<p class="accToggler">Research Interests</p>
+	<p class="accContent">
+		My research interests include natural language processing and machine learning.<br/>
+	</p>
+<!--
+For two consecutive summers, I interned at the UCLA Center for Embedded Networked Sensing and developed research-oriented Android applications. <br/><br/>I also participated in the Siemens National Research Competition and with a team, developed and tested an alternative method of compressing video footage.
+
+<p class="accToggler">Work Experience</p>
+	<div class="accContent">
+	<i>Summer 2012 & 2013 - Software Engineering Intern at EMC Corporation</i> <br/>
+	<ul>
+	<li>Worked on a product that backs up the VMware vCloud</li>
+	<li> Technologies Used: Java, Spring Framework, RabbitMQ, Puppet, Bash, Maven, VMware vCloud SDK, VMware vSphere SDK, PostgreSQL, JSON, XML </li>
+	</ul>
+	<i>Summer 2009 & 2010 - Research Intern at UCLA Center for Embedded Networked Sensing (CENS)</i>
+	<ul>
+	<li>Developed research-oriented Android applications</li>
+	</ul>
+	<i>2010 - Siemens National Research Competition</i>
+	<i></i>
+	</div>
+-->
+	<p class="accToggler">Coursework</p>
+	<div class="accContent">
+Here are the current classes I am enrolled in for Fall 2015:
+<br/>
+
+ <ul>
+<li> CS 420: Parallel Programming</li>
+<li> CS 426: Compiler Construction</li>
+<li> CS 598: Machine Learning for Signal Processing</li></ul>
+<a href="previouscoursework.html" class ="links">Previous Coursework</a>
+</div>
+	<p class="accToggler">Research Papers and Posters</p>
+	<div class="accContent">
+<p><i>At the UCLA Center for Embedded Networked Sensing:</i></p>
+<ul>
+<li>WaterBusters: An Android application that targets water wastage in Los Angeles through the implementation of participatory sensing.<br/> <a  href="Project%20Images/WaterBusters.pdf" class="links">Poster</a>
+</li>
+<li>Phrenic Sound: An Android application that aims to establish a correlation between sound and mental capabilities (reaction time and memory). <br/> <a href ="Phrenic%20Sound%20Poster.pdf" class="links">Poster</a>, <a class ="links" href ="cens/Research%20Paper.pdf">Paper</a></li>
+</ul>
+<p><i>Siemens National Research Competition: Video Compression with Color Quantization and Dithering</i></p>
+<ul>
+<li>Research comparing combinations of color quantization and dithering algorithms to find a more efficient way to compress video.</br><a href = "Papers/siemensabstract.pdf" class="links">Abstract</a>, <a class = "links" href = "Papers/siemensessay.pdf"> Paper</a></li>
+</ul>
+</p>
+</div>
+<p class = "accToggler">Contact Information</p>
+<p class="accContent">
+Email: vignesh [at] vigneshraja [dot] com <br/><br/>
+
+Otherwise, you can use the social networking sites below.
+</p>
+	<p style="width: 400px; margin:10px auto;text-align:center">
+	&copy;2015 <b><a href="http://www.vigneshraja.com">Vignesh Raja</a></b>,<b><a href="files/resume.pdf">Resume</a></b>
+	<br/><br/>
+	<a title = "LinkedIn" href = "http://www.linkedin.com/pub/vignesh-raja/21/220/626"><img border = "0"src="circular/linkedin_32.png" class = "icon"></a>
+<a title="Google+" href ="https://plus.google.com/105089536005605169538"><img border ="0"src ="circular/google_32.png" ></a>
+<a title ="Facebook" href ="https://www.facebook.com/vignesh.raja"><img border = "0"src = "circular/facebook_32.png"></a>
+<a title ="Blog" href ="/blog"><img border ="0"src="circular/wordpress_32.png"></a>
+<a title = "Github" href = "https://github.com/vraja2"><img border = "0" src = "circular/github_32.png"></a>
+</p>
+<br/>
+
+</body>
+</html>
